@@ -1,6 +1,8 @@
 import MenuNav from "../../components/MenuNav";
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
+import Features from "../../components/Features";
+import Categories from "../../components/Categories";
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
       </div>
       <MenuNav isContainer={true} />
       <Hero />
+      <Features />
+      <Categories />
     </>
   );
 };
