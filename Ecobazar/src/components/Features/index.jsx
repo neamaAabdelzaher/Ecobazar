@@ -30,7 +30,7 @@ export default function Features() {
 ];
 
     return (
-        <div className="container grid grid-cols-4 gap-6 h-32 mx-auto p-10 bg-white rounded-lg shadow-[0px_8px_40px_0px_rgba(0,38,3,0.08)]">
+        <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6  mx-auto p-10  mt-20 sm:mt-25 md:mt-30 lg:mt-0 bg-white rounded-lg shadow-[0px_8px_40px_0px_rgba(0,38,3,0.08)]">
         {
             features.map((feature) => (
                 <Feature key={feature.id} icon={feature.icon}  title={feature.title} description={feature.description}  />
